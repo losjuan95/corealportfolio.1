@@ -83,7 +83,7 @@
             <div class="header-content-inner header-color">
                 <h1 id="aboutmeHeading">Welcome to my  Portfolio! My name is Juan Carlos Corea</h1>
                 <hr>
-                <p><span class="header-color">Aspiring fullstack .NET developer</span></p>
+                <p><span class="header-color">Fullstack .NET developer</span></p>
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">About Me</a>
             </div>
         </div>
@@ -175,9 +175,10 @@
                 <div class="col-lg-4 col-sm-6">
                     
 
-                    <a data-toggle="modal" data-target="#Blog" class="portfolio-box">
-
-                        <img src="~/img/picpic.jpg" class="img-responsive" alt="">
+                    <a class="portfolio-box" href="https://coreablog.azurewebsites.net/" target="_blank">
+                        
+                            <img src="~/img/picpic.jpg" class="img-responsive"  alt="">
+                        
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -194,15 +195,15 @@
 
 
                 <div class="col-lg-4 col-sm-6">
-                    <a data-toggle="modal" data-target="#ERROR" class="portfolio-box">
+                    <a class="portfolio-box" href="http://coretracker.azurewebsites.net/" target="_blank">
                         <img src="~/img/bugtracker.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Bug
+                                   Escape to
                                 </div>
                                 <div class="project-name">
-                                    Tracker
+                                    Bug Tracker
                                 </div>
                             </div>
                         </div>
@@ -253,6 +254,29 @@
                 <div class="col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x sr-contact"></i>
                     <p><a href="mailto:your-email@your-domain.com">juancarloscorea95@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div style="text-align:center">
+                <h2>Reach Out</h2>
+                <p>Leave your information below:</p>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="~/img/contactme1.jpeg" style="width:100%">
+                </div>
+                <div class="column">
+                    <form action="/action_page.php">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                       
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                        <input type="submit" value="Submit">
+                    </form>
                 </div>
             </div>
         </div>
@@ -523,7 +547,7 @@
                                 </div>
 
                             </div>
-                            @*palindrom section of modal*@
+                            @*palindrome section of modal*@
                             <div id="Palindrome" class="tab-pane fade">
                                 <h3>Palindrome</h3>
                                 <p>

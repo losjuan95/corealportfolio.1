@@ -162,6 +162,9 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="img\bugtracker.jpg" />
+    <Content Include="img\contactme1.jpeg" />
+    <Content Include="img\contactme2.jpeg" />
+    <Content Include="img\contactme3.jpeg" />
     <Content Include="img\core icon 1.png" />
     <Content Include="img\gears.jpeg" />
     <Content Include="img\hand shake.jpeg" />
