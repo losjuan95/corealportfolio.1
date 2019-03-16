@@ -1,4 +1,5 @@
-﻿@{ Layout = null; }
+﻿
+@{ Layout = null;}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -84,8 +85,9 @@
                 <h1 id="aboutmeHeading">Welcome to my  Portfolio! My name is Juan Carlos Corea</h1>
                 <hr>
                 <p><span class="header-color">Fullstack .NET developer</span></p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">About Me</a>
+
             </div>
+
         </div>
     </header>
 
@@ -95,7 +97,10 @@
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">About Me</h2>
                     <hr class="bg-dark">
-                    <p class="text-faded">
+                    <img src="~/img/image.png" class="img-response"/>
+                    <br />
+                    <br />
+                    <p style="text-align:justify">
                         Currently working in the logistics and supply chain industry, and switching over to a more full-filling industry. With no technical background, I jumped headfirst into a coding bootcamp to gain a further understanding of a career where I could enjoy my work and where others could enjoy it as well. Having a passion for coding and programming, enjoying the behind the scene of web developing, the problem solving, gives me a sense of purposeness.
 
                     </p>
@@ -120,39 +125,48 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        
-                        <i class="fa fa-4x fa-battery-1 text-primary sr-icons" ></i>
-                        <h3>Html</h3>
-                        <p class="text-muted">Strong work ethic and drive to learn and keep on pushing.</p>
+
+                        <i class="fa fa-4x fa-user text-primary sr-icons"></i>
+                        <h3>SoftSkills</h3>
+                        <p class="text-muted">Strong work ethic and drive to learn and keep on pushing. Humble, respectful, communcative in and out of the workplace.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        
-                        <i class="fa fa-4x fa-battery-2 text-primary sr-icons"></i>
-                        <h3>Html and CSS</h3>
-                        <p class="text-muted">Knowledgeable with HTML and CSS and JS</p>
+
+                        <i class="fa fa-4x fa-bug text-primary sr-icons"></i>
+                        <h3>Debugging </h3>
+                        <p class="text-muted">Knowledgeable with BackEnd debugging techniques.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-battery-3 text-primary sr-icons"></i>
-                        <h3>Bootstrap</h3>
-                        <p class="text-muted">Using front-end development tool Bootstrap to carve out a better layout in the web design process</p>
+                        <i class="fa fa-4x fa-cog text-primary sr-icons"></i>
+                        <h3>FrontEnd</h3>
+                        <p class="text-muted">Using Bootstrap, Html, CSS3 to form most of my web applications, I enjoy learning different frontend tools and techniques to sharpen the way my web pages look and interact with the user.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-battery-full text-primary sr-icons"></i>
-                        <h3>.NET </h3>
-                        <p class="text-muted">Well informed in C#,SQl, and ASP.NET</p>
+                        <i class="fa fa-4x fa-database text-primary sr-icons"></i>
+                        <h3>BackEnd</h3>
+                        <p class="text-muted">Well informed in C#,SQL, and ASP.NET</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
+    <br />
+    <br />
     <section class="no-padding" id="portfolio">
+        <div class="container-flluid">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Portfolio</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
         <div class="container-flluid">
             <div class="row no-gutter popup-gallery">
                 <div class="col-lg-4 col-sm-6">
@@ -165,7 +179,7 @@
                                     Javascript
                                 </div>
                                 <div class="project-name">
-                                    excersises
+                                    Excersises
                                 </div>
                             </div>
                         </div>
@@ -173,12 +187,12 @@
                 </div>
 
                 <div class="col-lg-4 col-sm-6">
-                    
+
 
                     <a class="portfolio-box" href="https://coreablog.azurewebsites.net/" target="_blank">
-                        
-                            <img src="~/img/picpic.jpg" class="img-responsive"  alt="">
-                        
+
+                        <img src="~/img/picpic.jpg" class="img-responsive" alt="">
+
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -196,11 +210,11 @@
 
                 <div class="col-lg-4 col-sm-6">
                     <a class="portfolio-box" href="http://coretracker.azurewebsites.net/" target="_blank">
-                        <img src="~/img/bugtracker.jpg" class="img-responsive" alt="">
+                        <img src="~/img/bgtrack.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                   Escape to
+                                    Escape to
                                 </div>
                                 <div class="project-name">
                                     Bug Tracker
@@ -211,12 +225,12 @@
                 </div>
 
                 <div class="col-lg-4 col-sm-6">
-                    <a data-toggle="modal" data-target="#ERROR" class="portfolio-box">
+                    <a class="portfolio-box" href="https://financial20190313101456.azurewebsites.net/" target="_blank">
                         <img src="~/img/hand shake.jpeg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Financial 
+                                    Financial
                                 </div>
                                 <div class="project-name">
                                     Portal
@@ -226,18 +240,20 @@
                     </a>
                 </div>
 
+
+
             </div>
         </div>
     </section>
 
     @*<aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Free Download at Start Bootstrap!</h2>
-                <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Download Now!</a>
+            <div class="container text-center">
+                <div class="call-to-action">
+                    <h2>Free Download at Start Bootstrap!</h2>
+                    <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Download Now!</a>
+                </div>
             </div>
-        </div>
-    </aside>*@
+        </aside>*@
 
     <section id="contact">
         <div class="container">
@@ -251,12 +267,28 @@
                     <i class="fa fa-phone fa-3x sr-contact"></i>
                     <p>704-593-9125</p>
                 </div>
+
                 <div class="col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x sr-contact"></i>
                     <p><a href="mailto:your-email@your-domain.com">juancarloscorea95@gmail.com</a></p>
                 </div>
             </div>
         </div>
+        <div class="container">
+            <div class="row " style="text-align:center">
+                <div class="col-md-12" style="text-align:center">
+
+                    <button style="text-align:center; font-size:24px" class="btn center-block resume" >Resume</button>
+                    <br />
+                    <div id="resume" class="column" style="text-align:center">
+                        <embed src="~/Content/Juan Carlos Corea Final Resume 2019 (1).pdf" type="application/pdf" width="100%" height="800px" style="text-align:center" />
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+
         <div class="container">
             <div style="text-align:center">
                 <h2>Reach Out</h2>
@@ -266,23 +298,25 @@
                 <div class="column">
                     <img src="~/img/contactme1.jpeg" style="width:100%">
                 </div>
+                <br />
                 <div class="column">
+
                     <form action="/action_page.php">
                         <label for="fname">First Name</label>
                         <input type="text" id="fname" name="firstname" placeholder="Your name..">
                         <label for="lname">Last Name</label>
                         <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                       
+
                         <label for="subject">Subject</label>
                         <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-                        <input type="submit" value="Submit">
+                        <input type="submit" value="Submit" class="btn btn-primary">
                     </form>
                 </div>
             </div>
         </div>
     </section>
     @*modal section*@
-   
+
     <div class="container-fluid">
         <!-- Javascript Modal -->
         <div id="javascript" class="modal fade" role="dialog">
@@ -300,7 +334,7 @@
                             <li><a data-toggle="pill" href="#Facts">Facts</a></li>
                             <li><a data-toggle="pill" href="#FizzBuzz">FizzBuzz</a></li>
                             <li><a data-toggle="pill" href="#Palindrome">Palindrome</a></li>
-                           
+
                         </ul>
                     </div>
 
@@ -311,8 +345,8 @@
                                 <div class="container-fluid">
                                     <h3>Arthmitics</h3>
                                     <p>Enter numbers below to find the sum, product, average, min, and max</p>
-                                    
-                                    
+
+
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="row">  Enter Number 1: <input id="num1" type="number" /></div>
@@ -321,27 +355,10 @@
                                             <div class="row">  Enter Number 4: <input id="num4" type="number" /></div>
                                             <div class="row">  Enter Number 5: <input id="num5" type="number" /></div>
                                             <br />
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="row"> 
-                                                        <div class="col-md-6">
-                                                            <button id="btnNumber" type="button" class="btn btn-success">Results</button>
-                                                        </div>
-                                                    </div>
-                                                </div>
 
-                                                <div class="col-md-6">
-                                                    <div class="row">
-                                                        <div class="col-md-6">
-                                                            <button id="btnNumber2" type="button" class="btn btn-danger">Clear Data</button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                            </div>
                                         </div>
 
-                                        
+
 
                                         <div class="col-md-6">
 
@@ -357,9 +374,22 @@
                                         </div>
                                     </div>
 
-                                </div>  
+                                </div>
+
+                                <div class="row ">
+                                    <div class="col-md-6">
+                                        <button id="btnNumber" type="button" class="btn btn-success">Results</button>
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="row">
+                                    <div class="col-md-6 pull-left">
+                                        <button id="btnNumber2" type="button" class="btn btn-danger">Clear Data</button>
+                                    </div>
+                                </div>
 
 
+                                <br />
                                 <div class="row">
                                     <div class="col-md-12">
                                         <button id="showcd1" class="btn btn-primary">Show Code</button>
@@ -413,65 +443,76 @@
                                         </div>
                                     </div>
                                 </div>
-                                
-                                   
+                                <br />
+
                             </div>
-                            
+
                             @*factorial section of modal*@
                             <div id="Facts" class="tab-pane fade">
-                                <h3>Factorials</h3>
-                                <p> What is a Factorial? The product of an integer and all the integers below it. Enter a number below 170</p>
                                 <div class="container-fluid">
+                                    <h3>Factorials</h3>
+                                    <p> What is a Factorial? The product of an integer and all the integers below it. Enter a number below 170</p>
+
                                     <div class="col-md-6">
                                         <div class="row">Enter Numbers: <input id="n1" type="number" /></div>
                                         <br />
                                         <div class="row">
-                                            <div class="col-lg-6">
+                                            <div class="col-md-6">
                                                 <div class="row">
                                                     <button id="facbtn" type="button" class="btn btn-success">Results</button>
                                                 </div>
                                             </div>
-                                            
-                                            <div class="col-lg-6">
+
+                                        </div>
+                                        <br />
+                                        <div class="row">
+                                            <div class="col-md-6">
                                                 <div class="row">
                                                     <button id="facclear" type="button" class="btn btn-danger">Clear Data</button>
                                                 </div>
                                             </div>
                                         </div>
-
+                                        <br />
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="row">
+                                                    <button id="showcd2" class="btn btn-primary">Show Code</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br />
 
                                     </div>
 
                                     <div class="col-md-4">
                                         <div class="row">
-                                            <h4> <span id="fachdr">The Results Are</span> </h4>
+                                            <h4> <span id="fachdr"></span> </h4>
                                             <p id="facresults"></p>
 
                                         </div>
 
                                     </div>
-
-                                </div>
-                                <br />
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <button id="showcd2" class="btn btn-primary">Show Code</button>
-                                        <div id="factcode">
-                                            <pre class="brush:js">
-                                            $("#facbtn").click(function () {
-                                            var n1 = parseInt($("#n1").val());
-                                            var factorial = 1;
-                                            while (n1 > 1) {
-                                                factorial *= n1
-                                                n1--;
-                                            }
-                                            $("#facresults").text("results for your number is: " + factorial)
+                                    <div class="row">
+                                        <div class="col-lg-pull-12">
+                                            <div id="factcode">
+                                                <pre class="brush:js">
+                                                        $("#facbtn").click(function () {
+                                                        var n1 = parseInt($("#n1").val());
+                                                        var factorial = 1;
+                                                        while (n1 > 1) {
+                                                            factorial *= n1
+                                                            n1--;
+                                                        }
+                                                        $("#facresults").text("results for your number is: " + factorial)
             
-                                            });
-                                            </pre>
+                                                        });
+                                                    </pre>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+                                <br />
+
                             </div>
                             @*fizzbuzz section of modal*@
                             <div id="FizzBuzz" class="tab-pane fade">
@@ -480,20 +521,27 @@
                                     <p>Enter a number in the input boxes to find out the mod of that number </p>
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <div class="row">   Enter Number 1: <input id="fizz" type="number" /></div>
-                                            <div class="row">   Enter Number 1: <input id="buzz" type="number" /></div>
+                                            <div class="row">Enter Number 1: <input id="fizz" type="number" /></div>
+                                            <div class="row">Enter Number 1: <input id="buzz" type="number" /></div>
                                             <br />
-                                            <div class="col-md-6">
-                                                <div class="row">
+
+                                            <div class="row">
+                                                <div class="col-md-6">
                                                     <button id="fbbutton" type="button" class="btn btn-success">Results</button>
                                                 </div>
                                             </div>
-                                            <div class="col-md-6">
-                                                <div class="row">
+                                            <br />
+                                            <div class="row">
+                                                <div class="col-md-6">
                                                     <button id="fbclear" type="button" class="btn btn-danger">Clear Data</button>
                                                 </div>
                                             </div>
-
+                                            <br />
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <button id="showcd3" class="btn btn-primary">Show Code</button>
+                                                </div>
+                                            </div>
                                         </div>
                                         <div class="col-md-6">
                                             <h4> <span id="fbhdr">Results</span></h4>
@@ -505,7 +553,6 @@
                                 <br />
                                 <div class="row">
                                     <div class="col-lg-12">
-                                        <button id="showcd3" class="btn btn-primary">Show Code</button>
                                         <div id="fbcode">
                                             <pre class="brush:js">
                                                        //Collect user data
@@ -549,53 +596,47 @@
                             </div>
                             @*palindrome section of modal*@
                             <div id="Palindrome" class="tab-pane fade">
-                                <h3>Palindrome</h3>
-                                <p>
-                                    pal·in·drome
-                                    enter a word, phrase, or sequence that reads the same backward as forward, e.g., madam
-                                </p>
+
                                 <div class="container-fluid">
-                                    
+                                    <h3>Palindrome</h3>
+                                    <p>
+                                        pal·in·drome
+                                        enter a word, phrase, or sequence that reads the same backward as forward, e.g., madam
+                                    </p>
                                     <div class="row">
                                         <div class="col-md-6">
                                             Enter Word: <input id="pal1" type="text" />
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    
-                                                    <div class="row">
-                                                        <div class="col-md-6">
-                                                            <button id="Palenter" type="button" class="btn btn-success">Results</button>
-                                                        </div>
-                                                    </div>
-                                                    
-
-                                                    <div class="col-md-6">
-                                                        <div class="row">
-                                                            <div class="col-md-6">
-                                                                <button id="palclr" type="button" class="btn btn-danger">Clear Data</button>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                                       
                                         </div>
+                                        <br />
                                         <div class="col-md-6">
-                                            <div class="row">
 
-                                                <h4> <span id="palhdr">Results</span></h4>
-                                                <p id="palresults"></p>
+                                            <h4> <span id="palhdr">Results</span></h4>
+                                            <p id="palresults"></p>
 
-                                            </div>
                                         </div>
-                                        
                                     </div>
                                     <div class="row">
-                                        <div class="col-md-12">
-
+                                        <div class="col-md-6">
+                                            <button id="Palenter" type="button" class="btn btn-success">Results</button>
+                                        </div>
+                                    </div>
+                                    <br />
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <button id="palclr" type="button" class="btn btn-danger">Clear Data</button>
+                                        </div>
+                                    </div>
+                                    <br />
+                                    <div class="row">
+                                        <div class="col-md-6">
                                             <button id="showcd4" class="btn btn-primary">Show Code</button>
-                                            <div id="palcode">
-                                                <pre class="brush:js">
+                                        </div>
+                                    </div>
+                                    <br />
+                                    <div class="col-md-12">
+
+                                        <div id="palcode">
+                                            <pre class="brush:js">
                                                         $("#Palenter").click(function () {
                                                             $("#palhdr").show();
                 
@@ -621,30 +662,28 @@
                                                             $("#palhdr").hide();
                                                         });
                                                     </pre>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                          
                             </div>
 
                             <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                             </div>
                         </div>
 
                     </div>
+                </div>
+
+
+                </div>
+
+
+
+
+
             </div>
-
-
-
-
-
-
-
-
         </div>
-    </div>
         <!-- jQuery -->
         @*<script src="vendor/jquery/jquery.min.js"></script>*@
         <script src="~/Scripts/jquery-3.3.1.min.js"></script>
@@ -662,204 +701,210 @@
         @*<script src="~/Scripts/creative.min.js"></script>*@
         <script src="~/Scripts/SyntaxHighlighter/scripts/shBrushJScript.js"></script>
         <script>
-            SyntaxHighlighter.all();
-
-            
+                SyntaxHighlighter.all();
 
 
 
 
 
-
-            
-            $("#mthcode").hide();
-            $("#showcd1").click(function () {
-                $("#mthcode").toggle();
+            $("#resume").hide();
+            $(".resume").click(function () {
+                $("#resume").toggle();
             });
-        
-            
-            
-            $("#resultHdr").hide();
-            $("#fachdr").hide();
-            
-            //How Do I Use jQuery to tell the button what to do when it is clicked--//
 
 
-            $("#btnNumber").click(function () {
+                $("#mthcode").hide();
+                $("#showcd1").click(function () {
+                    $("#mthcode").toggle();
+                });
+
+
+
+                $("#resultHdr").hide();
+                $("#fachdr").hide();
 
                 //How Do I Use jQuery to tell the button what to do when it is clicked--//
-                var num1 = parseInt($("#num1").val());
-                var num2 = parseInt($("#num2").val());
-                var num3 = parseInt($("#num3").val());
-                var num4 = parseInt($("#num4").val());
-                var num5 = parseInt($("#num5").val());
 
 
-                //$("#resultHdr").show();
+                $("#btnNumber").click(function () {
 
-                var sum = (num1 + num2 + num3 + num4 + num5);
-                //Calculate the Product
-                var product = (num1 * num2 * num3 * num4 * num5);
-                //Calculate the Aaverage
-                var average = sum / 5;
-                //Determine the Largest
-                var max = Math.max(num1, num2, num3, num4, num5);
-                //Determine the Smallest
-                var min = Math.min(num1, num2, num3, num4, num5);
-
-                $("#sum").text("the sum is equal to " + sum);
-                $("#product").text("the product is equal to " + product);
-                $("#average").text("the average is equal to " + average);
-                $("#max").text("the maximum number is equal to " + max);
-                $("#min").text("the minimum number is equal to " + min);
-
-            });
+                    //How Do I Use jQuery to tell the button what to do when it is clicked--//
+                    var num1 = parseInt($("#num1").val());
+                    var num2 = parseInt($("#num2").val());
+                    var num3 = parseInt($("#num3").val());
+                    var num4 = parseInt($("#num4").val());
+                    var num5 = parseInt($("#num5").val());
 
 
-            $("#btnNumber2").click(function () {
-                $("#num1,#num2,#num3,#num4,#num5").val("");
+                    //$("#resultHdr").show();
 
-                $("#sum,#product,#average,#max,#min").html("");
-                //$("#resultHdr").hide();
-            });
+                    var sum = (num1 + num2 + num3 + num4 + num5);
+                    //Calculate the Product
+                    var product = (num1 * num2 * num3 * num4 * num5);
+                    //Calculate the Aaverage
+                    var average = sum / 5;
+                    //Determine the Largest
+                    var max = Math.max(num1, num2, num3, num4, num5);
+                    //Determine the Smallest
+                    var min = Math.min(num1, num2, num3, num4, num5);
 
-           //factorial modal section
-            
-            $("#factcode").hide();
-            $("#showcd2").click(function () {
-                $("#factcode").toggle();
-            });
+                    $("#sum").text("the sum is equal to " + sum);
+                    $("#product").text("the product is equal to " + product);
+                    $("#average").text("the average is equal to " + average);
+                    $("#max").text("the maximum number is equal to " + max);
+                    $("#min").text("the minimum number is equal to " + min);
 
-             //attempt to do the factorial equation
-
-            $("#facbtn").click(function () {
-                var n1 = parseInt($("#n1").val());
-                var factorial = 1;
-                while (n1 > 1) {
-                    factorial *= n1
-                    n1--;
-                }
-                $("#facresults").text("results for your number is: " + factorial)
-                $("#fachdr").show();
-             });
-
-            $("#facclear").click(function () {
+                });
 
 
-                $("#n1").val("");
-                $("#facresults").text("");
+                $("#btnNumber2").click(function () {
+                    $("#num1,#num2,#num3,#num4,#num5").val("");
 
+                    $("#sum,#product,#average,#max,#min").html("");
+                    //$("#resultHdr").hide();
+                });
 
-            });
-            
-            //end of factorial section
+               //factorial modal section
 
+                $("#factcode").hide();
+                $("#showcd2").click(function () {
+                    $("#factcode").toggle();
+                });
 
-            //fizz buzz section
-            $("#fbhdr").hide();
-            $("#fbcode").hide();
-            $("#showcd3").click(function () {
-                $("#fbcode").toggle();
-            });
+                 //attempt to do the factorial equation
 
-            $("#fbclear").click(function () {
-                $("#fbresults").html("");
-                $("#fizz").val("");
-                $("#buzz").val("");
-
-            });
-
-           var last = myOutput[myOutput.length -1]
-
-
-            $("#fbbutton").click(function () {
-                //Collect user data
-                var num1 = parseInt($("#fizz").val());
-                var num2 = parseInt($("#buzz").val());
-                var myOutput = "";
-
-                //Write a loop that goes from 1 to 100
-                for (var loop = 1; loop <= 100; loop++) {
-                    //Record my modulus operation values
-
-                    //loop counter = 15
-                    var fizz = loop % num1; 
-                    var buzz = loop % num2; 
-
-                    //Create a variable that will hold a string
-
-
-                    //Check for Fizz
-                    if (fizz == 0 && buzz == 0) {
-                        myOutput += "<span class='fizzbuzz'>Fizz-Buzz</span>, ";
+                $("#facbtn").click(function () {
+                    var n1 = parseInt($("#n1").val());
+                    var factorial = 1;
+                    while (n1 > 1) {
+                        factorial *= n1
+                        n1--;
                     }
-                    else if (fizz == 0) {
-                        myOutput += "<span class='fizz'>Fizz</span>, ";
+                    $("#facresults").text("Results for your Number is: " + factorial)
+                    $("#fachdr").show();
+                 });
+
+                $("#facclear").click(function () {
+
+
+                    $("#n1").val("");
+                    $("#facresults").text("");
+                    $("#fachdr").hide("");
+
+
+                });
+
+                //end of factorial section
+
+
+                //fizz buzz section
+                $("#fbhdr").hide();
+                $("#fbcode").hide();
+                $("#showcd3").click(function () {
+                    $("#fbcode").toggle();
+                });
+
+                $("#fbclear").click(function () {
+                    $("#fbresults").html("");
+                    $("#fizz").val("");
+                    $("#buzz").val("");
+
+                });
+
+               //this code is what i will use to take off the trailing comma as soon as i have time to figure it out
+               //var last = myOutput[myOutput.length -1]
+
+
+                $("#fbbutton").click(function () {
+                    //Collect user data
+                    var num1 = parseInt($("#fizz").val());
+                    var num2 = parseInt($("#buzz").val());
+                    var myOutput = "";
+                                    
+
+                    //Write a loop that goes from 1 to 100
+                    for (var loop = 1; loop <= 100; loop++) {
+                        //Record my modulus operation values
+
+                        //loop counter = 15
+                        var fizz = loop % num1;
+                        var buzz = loop % num2;
+
+                        //Create a variable that will hold a string
+
+
+                        //Check for Fizz
+                        if (fizz == 0 && buzz == 0) {
+                            myOutput += "<span class='fizzbuzz'>Fizz-Buzz</span>,";
+                        }
+                        else if (fizz == 0) {
+                            myOutput += "<span class='fizz'>Fizz</span>, ";
+                        }
+                        else if (buzz == 0) {
+                            myOutput += "<span class='buzz'>Buzz</span>, ";
+                        }
+                        else {
+                            myOutput += loop + ", ";
+                        }
+                        
                     }
-                    else if (buzz == 0) {
-                        myOutput += "<span class='buzz'>Buzz</span>, ";
+
+
+                    //Write out results
+                    //myOutput.substring(str.length , str.length);
+                    $("#fbresults").html(myOutput);
+
+
+
+                });
+
+                //palindrome excercise
+                $("#palrsesults").hide();
+                $("#palhdr").hide();
+                $("#palcode").hide();
+                $("#showcd4").click(function () {
+                    $("#palcode").toggle();
+                });
+
+                //reverse array
+                $("#Palenter").click(function () {
+                    $("#palhdr").show();
+
+                    //the jquery is being used as a var named pally
+                    var pally = $("#pal1").val();
+                    //
+                    var output = "";
+                    var arr = pally.split("");
+                    var new_arr = arr.reverse();
+                    var rewrd = new_arr.join("")
+                    if (pally == rewrd) {
+                        output += "it works"
                     }
                     else {
-                        myOutput += loop + ", ";
+                        output += "not the same"
                     }
-                }
+                    $("#palresults").html(output)
+                });
 
-
-                //Write out results
-                //myOutput.substring(str.length , str.length);
-                $("#fbresults").html(myOutput);
-
-            
-               
-            });
-           
-            //palindrome excercise
-            $("#palrsesults").hide();
-            $("#palhdr").hide();
-            $("#palcode").hide();
-            $("#showcd4").click(function () {
-                $("#palcode").toggle();
-            });
-
-            //reverse array
-            $("#Palenter").click(function () {
-                $("#palhdr").show();
-                
-                //the jquery is being used as a var named pally
-                var pally = $("#pal1").val();
-                //
-                var output = "";
-                var arr = pally.split("");
-                var new_arr = arr.reverse();
-                var rewrd = new_arr.join("")
-                if (pally == rewrd) {
-                    output += "it works"
-                }
-                else {
-                    output += "not the same"
-                }
-                $("#palresults").html(output)
-            });
-                
-            $("#palclr").click(function () {
-                $("#pal1").val("");
-                $("#palresults").html("");
-                $("#palhdr").hide();
-            });
-
-            
-
-            
-
-
-            
+                $("#palclr").click(function () {
+                    $("#pal1").val("");
+                    $("#palresults").html("");
+                    $("#palhdr").hide();
+                });
 
 
 
 
-        </script>
-    
 
-    </body>
+
+
+
+
+
+
+            </script>
+
+
+</body>
 
 </html>
