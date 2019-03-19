@@ -199,6 +199,7 @@
     <Content Include="img\portfolio\thumbnails\4.jpg" />
     <Content Include="img\portfolio\thumbnails\5.jpg" />
     <Content Include="img\portfolio\thumbnails\6.jpg" />
+    <Content Include="img\webapi.jpeg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="img\HTML5 and CSS.pptx" />
