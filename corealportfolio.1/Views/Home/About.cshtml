@@ -274,7 +274,7 @@
     });
 
     //var last = myOutput[myOutput.length - 1]
-
+    
 
     $("#fbbutton").click(function () {
         //Collect user data
@@ -282,6 +282,7 @@
         var num2 = parseInt($("#buzz").val());
         var myOutput = "";
 
+       
         //Write a loop that goes from 1 to 100
         for (var loop = 1; loop <= 100; loop++) {
             //Record my modulus operation values
@@ -294,9 +295,11 @@
 
 
             //Check for Fizz
+           
             if (fizz == 0 && buzz == 0) {
                 myOutput += "<span class='fizzbuzz'>Fizz-Buzz</span>, ";
             }
+            
             else if (fizz == 0) {
                 myOutput += "<span class='fizz'>Fizz</span>, ";
             }
@@ -309,7 +312,6 @@
             }
         }
 
-
         //Write out results
         //myOutput.substring(str.length , str.length);
         $("#fbresults").html(myOutput);
@@ -317,6 +319,7 @@
 
 
     });
+   
 </script>
 <script>
     //palindrome excercise
