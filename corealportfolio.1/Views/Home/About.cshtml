@@ -335,7 +335,7 @@
         $("#palhdr").show();
 
         //the jquery is being used as a var named pally
-        var pally = $("#pal1").val();
+        var pally = $("#pal1").val().replace(/\s/g,'');
         //
         var output = "";
         var arr = pally.split("");
